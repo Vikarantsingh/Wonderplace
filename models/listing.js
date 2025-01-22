@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const listingSchema = new Schema({
   title: {
-    type: String,
+    type: Object,
     required: true,
   },
   description: String,
